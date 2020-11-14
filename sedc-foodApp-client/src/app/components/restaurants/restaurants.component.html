@@ -1,0 +1,7 @@
+<div class="d-flex flex-row flex-wrap justify-content-between">
+    <div *ngFor="let restaurant of restaurants" class="card mt-2 mb-2" style="width: 350px;">
+
+        <app-restaurant [restaurant]="restaurant"></app-restaurant>
+
+    </div>
+</div>

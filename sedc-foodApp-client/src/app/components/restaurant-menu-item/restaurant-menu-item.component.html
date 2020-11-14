@@ -1,0 +1,13 @@
+<div class="card mt-2 bg-warning">
+    <div class="card-header font-weight-bold">{{mealTypeName}}</div>
+</div>
+
+<div class="d-flex flex-wrap justify-content-start">
+    <div *ngFor="let item of menuItems" class="card mt-2 mb-2 mr-2" style="width: 350px;">   
+        <img class="card-img-top" src="https://res.cloudinary.com/delivery-com/image/fetch/w_380,h_285,c_fill,f_auto/https%3A%2F%2Fs3.amazonaws.com%2Fs3.delivery.com%2Fimages%2Fplaceholder%2Ffood.png" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">{{item.name}}</h5>
+            <p class="card-text">{{item.mealType | mapMealType}}</p>
+        </div>
+    </div>
+</div>

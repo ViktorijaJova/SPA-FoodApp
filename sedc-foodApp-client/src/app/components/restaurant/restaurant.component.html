@@ -1,0 +1,6 @@
+<img class="card-img-top" src="https://image.shutterstock.com/image-vector/restaurant-logo-template-260nw-1254530365.jpg" alt="Card image cap">
+<div class="card-body">
+    <h5 class="card-title">{{restaurant.name}} - {{restaurant.municipality}}</h5>
+    <p class="card-text">The best restaurant in the town!</p>
+    <a [routerLink]="['restaurant-menu/', restaurant.id]" class="btn btn-outline-success">Menu</a>
+</div>

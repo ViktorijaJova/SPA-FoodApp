@@ -1,0 +1,5 @@
+<app-restaurant-menu-item *ngIf="starters && starters.length" [menuItems]="starters" mealTypeName="Starters"></app-restaurant-menu-item>
+<app-restaurant-menu-item *ngIf="salads && salads.length" [menuItems]="salads" mealTypeName="Salads"></app-restaurant-menu-item>
+<app-restaurant-menu-item *ngIf="mainDish && mainDish.length" [menuItems]="mainDish" mealTypeName="Main Dish"></app-restaurant-menu-item>
+<app-restaurant-menu-item *ngIf="deserts && deserts.length" [menuItems]="deserts" mealTypeName="Deserts"></app-restaurant-menu-item>
+<app-restaurant-menu-item *ngIf="drinks && drinks.length" [menuItems]="drinks" mealTypeName="Drinks"></app-restaurant-menu-item>
