@@ -1,0 +1,17 @@
+.login-header {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.login-header > h3 {
+     color: white;
+}
+
+.login-header > img {
+    height: 300px;
+}
+
+.forgot-password:hover {
+    text-decoration: none;
+    color: #FD9B0C;
+}

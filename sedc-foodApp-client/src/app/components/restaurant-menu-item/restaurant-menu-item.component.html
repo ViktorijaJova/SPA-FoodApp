@@ -8,6 +8,7 @@
         <div class="card-body">
             <h5 class="card-title">{{item.name}}</h5>
             <p class="card-text">{{item.mealType | mapMealType}}</p>
+            <button (click)="updateOrder(item)" class="btn btn-outline-success">Add to cart</button>
         </div>
     </div>
 </div>

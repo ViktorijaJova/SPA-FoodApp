@@ -3,15 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.FoodApp.Web", "SEDC.FoodApp.Web\SEDC.FoodApp.Web.csproj", "{26055675-59D4-4E6D-AAD9-1EBD5FAF0C0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SEDC.FoodApp.Web", "SEDC.FoodApp.Web\SEDC.FoodApp.Web.csproj", "{26055675-59D4-4E6D-AAD9-1EBD5FAF0C0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.FoodApp.Services", "SEDC.FoodApp.Services\SEDC.FoodApp.Services.csproj", "{BB136035-5474-4486-8AFD-D68F3D3E43C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SEDC.FoodApp.Services", "SEDC.FoodApp.Services\SEDC.FoodApp.Services.csproj", "{BB136035-5474-4486-8AFD-D68F3D3E43C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.FoodApp.DataAccess", "SEDC.FoodApp.DataAccess\SEDC.FoodApp.DataAccess.csproj", "{9A549CC9-8A74-4B19-A619-921AB2AFFE9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SEDC.FoodApp.DataAccess", "SEDC.FoodApp.DataAccess\SEDC.FoodApp.DataAccess.csproj", "{9A549CC9-8A74-4B19-A619-921AB2AFFE9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.FoodApp.DomainModels", "SEDC.FoodApp.DomainModels\SEDC.FoodApp.DomainModels.csproj", "{2762743E-7C51-4470-9BC8-DB9CC6B705AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SEDC.FoodApp.DomainModels", "SEDC.FoodApp.DomainModels\SEDC.FoodApp.DomainModels.csproj", "{2762743E-7C51-4470-9BC8-DB9CC6B705AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.FoodApp.RequestModels", "SEDC.FoodApp.RequestModels\SEDC.FoodApp.RequestModels.csproj", "{E15E9B02-D1C6-4492-847E-7CE313EE5B7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SEDC.FoodApp.RequestModels", "SEDC.FoodApp.RequestModels\SEDC.FoodApp.RequestModels.csproj", "{E15E9B02-D1C6-4492-847E-7CE313EE5B7C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SEDC.FoodApp.Auth.Models", "SEDC.FoodApp.Auth.Models\SEDC.FoodApp.Auth.Models.csproj", "{8896D9BD-170E-4C94-80EC-39EA822479E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.FoodApp.Mailer", "SEDC.FoodApp.Mailer\SEDC.FoodApp.Mailer.csproj", "{F7DFA674-50B2-4878-911F-E84516AC1FC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{E15E9B02-D1C6-4492-847E-7CE313EE5B7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E15E9B02-D1C6-4492-847E-7CE313EE5B7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E15E9B02-D1C6-4492-847E-7CE313EE5B7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8896D9BD-170E-4C94-80EC-39EA822479E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8896D9BD-170E-4C94-80EC-39EA822479E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8896D9BD-170E-4C94-80EC-39EA822479E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8896D9BD-170E-4C94-80EC-39EA822479E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7DFA674-50B2-4878-911F-E84516AC1FC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7DFA674-50B2-4878-911F-E84516AC1FC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7DFA674-50B2-4878-911F-E84516AC1FC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7DFA674-50B2-4878-911F-E84516AC1FC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

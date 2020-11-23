@@ -1,0 +1,33 @@
+<!-- table -->
+<div class="card p-2 mb-2">
+    <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Calories</th>
+            <th scope="col">Is Vegeterian</th>
+            <th scope="col">Price</th>
+            <th scope="col">Meal Type</th>
+          </tr>
+        </thead>
+        <tbody *ngIf="order">
+          <tr *ngFor="let item of order.menuItems; index as i">
+            <th scope="row">{{ i + 1 }}</th>
+            <td>{{ item.name }}</td>
+            <td>{{ item.calories }}</td>
+            <td>{{ item.isVege | isVegePipe }}</td>
+            <td>{{ item.price }}</td>
+            <td>{{ item.mealType }}</td>
+          </tr>
+          <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>Total: <b>{{price}}</b></td>
+              <td><button class="btn btn-outline-primary">Pay</button></td>
+          </tr>
+        </tbody>
+    </table>
+  </div>

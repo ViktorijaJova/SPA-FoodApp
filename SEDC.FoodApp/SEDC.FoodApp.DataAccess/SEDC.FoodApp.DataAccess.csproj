@@ -5,10 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.8" />
     <PackageReference Include="MongoDB.Driver" Version="2.11.3" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="3.1.4" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SEDC.FoodApp.Auth.Models\SEDC.FoodApp.Auth.Models.csproj" />
     <ProjectReference Include="..\SEDC.FoodApp.DomainModels\SEDC.FoodApp.DomainModels.csproj" />
   </ItemGroup>
 
